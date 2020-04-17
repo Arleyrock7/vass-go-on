@@ -1,0 +1,312 @@
+v
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Take care - Vass</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="bg-img container">
+            <div class="principal">
+                <h1>Manual <span>Take Care <img src="img/logo.png" alt=""></span></h1>
+                <h3>Actividades para que disfrutes esta Cuarentena junto a tu familia... Y si vives sólo no te aburras. </h3>
+                <p>
+                    Ok, sabemos que estás en casa, tratando de trabajar al tiempo que haces tu vida familiar, por eso Vass quiere invitarte a tomar el control en este tiempo, desarrollar nuevas capacidades, potenciar tus habilidades y que continues con eso que te apasiona pero que por flata de tiempo no haz podido terminar. Aquí encontrarás una serie de actividades y recomendaciones para que disfrutes tu día a día.
+                </p>
+
+                <button>Clickeame!</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="container one background-3 exercises">
+        <h3> <span>1</span> Comienza a hacer ejercicio, yoga y meditación </h3>
+        <article>
+            <div class="text txt-left width padding-right">
+                <span>Rutinas de ejercicios para cada día</span>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
+                </p>
+                <button class="left btn-2">Ir a la rutina</button>
+            </div>
+            <div class="img-section width">
+                <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/4480.jpg" alt="">
+            </div>
+        </article>
+
+        <article class="flow-column-reverse">
+            <div class="left img-section width">
+                <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/187.jpg" alt="">
+            </div>
+            <div class="text txt-right width padding-left">
+                <span>Yoga en casa</span>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
+                </p>
+                <button class="right btn-2">Relájate</button>
+            </div>
+        </article>
+
+        <article>
+            <div class="text txt-left width padding-right">
+                <span>Yoga en casa para niños</span>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
+                </p>
+                <button class="left btn-2">Ayuda a tus hijos</button>
+
+                <div class="content-2">
+                    <span>Seguro amaran esto!</span>
+                    <div class="list">
+                        <div>
+                            <a href=""><img src="img/logo_kids_2.png" alt=""></a>
+                        </div>
+                        <div>
+                            <a href=""><img src="img/friv-2.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right img-section width">
+                <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/3666090.jpg" alt="">
+            </div>
+        </article>
+    </section>
+
+    <section class="container one background-2">
+        <h3> <span>2</span> Maneja la ansiedad en 5 pasos </h3>
+        <article class="anxiety-general">
+            <div class="width padding-right anxiety padding-right">
+                <span>Es momento de superar el pánico</span>
+                <p>
+                    No se trata tanto de cómo curar la ansiedad, ya que no es en sí una enfermedad. Pero sí puedes transformarla y empezar a sanar. ¿Cómo? Siguiendo un proceso.
+                </p>
+            </div>
+            <div class="right img-bg width">
+                <ul>
+                    <li> <img src="img/check.png"> Paso 1: Haz un alto y acepta</li>
+                    <li> <img src="img/check.png"> Paso 2: Recupera el equilibrio</li>
+                    <li> <img src="img/check.png"> Paso 3: Ubícate en la realidad</li>
+                    <li> <img src="img/check.png"> Paso 4: Confía en ti y enfrenta tus miedos</li>
+                    <li> <img src="img/check.png"> Paso 5: Hazte responsable de ti y sé libre</li>
+                </ul>
+                <button class="right width-100 btn-2">Mira como hacerlo!</button>
+            </div>
+        </article>
+    </section>
+
+    <section class="container">
+        <h3> <span>3</span> Bibliotecas virtuales </h3>
+        <article>
+            <div class="column-3">
+                <div class="box">
+                    <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/10015.jpg" alt="">
+                    <div class="bg-btn">
+                        <button class="right">UNESCO</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/342387-PA9PVN-610.jpg" alt="">
+                    <div class="bg-btn">
+                        <button class="right">DIGITAL HISPANA</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/2413378.jpg" alt="">
+                    <div class="bg-btn">
+                        <button class="right">GETABSTRACT</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="container one background-3 download-general">
+        <article>
+            <div class="width padding-right">
+                <span>100 mejores cuentos cortos de la literatura universal</span>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
+                </p>
+            </div>
+            <div class="right img-bg width download">
+                <img src="img/libros-gratis.jpg" alt="">
+                <button class="right width-100 btn-2">Descarga eBooks gratuitos</button>
+            </div>
+        </article>
+    </section>
+
+    <section class="container background-2">
+        <h3> <span>4</span> Museos virtuales </h3>
+        <article>
+            <div class="museums">
+                <div class="box">
+                    <div class="width-museums">
+                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/louvre.jpg" alt="">
+                        <div class="bg-btn">
+                            <p>Museo del Louvre (París)</p>
+                            <button class="button-transparent">Conoce</button>
+                        </div>
+                    </div>
+                    <div class="width-museums">
+                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/mma.jpg" alt="">
+                        <div class="bg-btn">
+                            <p>Museo Metropolitano de Arte (New York)</p>
+                            <button class="button-transparent">Conoce</button>
+                        </div>
+                    </div>
+                    <div class="width-museums">
+                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/mbl.jpg" alt="">
+                        <div class="bg-btn">
+                            <p>Museo Británico (Londres)</p>
+                            <button class="button-transparent">Conoce</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="width-museums">
+                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/mana.jpg" alt="">
+                        <div class="bg-btn">
+                            <p>Museo Arqueologíco (Atenas)</p>
+                            <button class="button-transparent">Conoce</button>
+                        </div>
+                    </div>
+                    <div class="width-museums">
+                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/mp.jpg" alt="">
+                        <div class="bg-btn">
+                            <p>Museo del Prado (Madrid)</p>
+                            <button class="button-transparent">Conoce</button>
+                        </div>
+                    </div>
+                    <div class="width-museums">
+                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/mamm.jpg" alt="">
+                        <div class="bg-btn">
+                            <p>Museo de Arte Metropolitano (Medellín)</p>
+                            <button class="button-transparent">Conoce</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="container">
+        <h3> <span>5</span> GameON </h3>
+        <span>Toma el control y sube de nivel!</span>
+        <article class="games-general">
+            <div>
+                <div class="img-bg">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ot63S91Ihwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="games">
+                        <button>Descargalo aquí</button>
+                    </div>
+                </div>
+                <div class="img-bg">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/nXODelg4XkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="games">
+                        <button>Descargalo aquí</button>
+                    </div>
+                </div>
+                <div class="img-bg">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/JP1RI_WNP-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="games">
+                        <button>Descargalo aquí</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="container">
+        <h3> <span>6</span> Tonight Concert </h3>
+        <span>Es momento de disfrutar de la música desde la comodidad de tu casa!</span>
+
+        <div class="concert-div">
+            <article class="concert-box concert-div-2">
+                <div class="main-artist">
+                    <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/michael-jackson-concert-3.jpg" alt="">
+                </div>
+                <div class="right">
+                    <span>Michael Jackson</span>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
+                    </p>
+                    <button>Dale PLAY</button>
+                </div>
+            </article>
+        </div>
+
+        <div class="concert-div">
+            <article>
+                <div class="concert-box-2">
+                    <div>
+                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/coldplay-concert.jpg" alt="">
+                    </div>
+                    <div class="div-padding">
+                        <span>Coldplay</span>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
+                        </p>
+                        <button>Dale PLAY</button>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="concert-box-2">
+                    <div>
+                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/maroon5-concert.jpg" alt="">
+                    </div>
+                    <div class="div-padding">
+                        <span>Maroon 5</span>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
+                        </p>
+                        <button>Dale PLAY</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div>
+            <h3>Apps de música y emisoras virtuales</h3>
+            <div class="music-div">
+                <div class="">
+                    <img src="img/spotify.jpg" alt="">
+                    <a href="" class="spotify">Descarga la App</a>
+                </div>
+                <div class="">
+                    <img src="img/odio.jpg" alt="">
+                    <a href="" class="odio">Descarga la App</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container streaming-video">
+        <div class="title-streaming">
+            <div>
+                <h3> <span>7</span> Películas, series y documentales </h3></div>
+            <div><img src="img/tv.png" alt=""></div>
+        </div>
+        <article class="list-streaming">
+            <a href=""><img src="img/netflix.png" alt=""></a>
+            <a href=""><img src="img/hbo.jpg" alt=""></a>
+            <a href=""><img src="img/amazon-prime.png" alt=""></a>
+        </article>
+    </section>
+
+    <footer>
+        <img src="img/logo.png" alt="">
+    </footer>
+
+</body>
+
+</html>
