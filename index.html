@@ -1,851 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://github.com/Arleyrock7/vass-go-on/blob/master/styles.css">
-    <style>
-        body{
-    font-family: Montserrat-Regular;
-    margin: 0;
-    padding: 0;
-}
-header button{
-    color: #fff;
-    background-color: transparent;
-    border: #fff 2px solid;
-}
-header button:hover{
-    color: #fff;
-    background-color: #2b96ea;
-    border: #fff 2px solid;
-}
-.container{
-    padding-right: 150px;
-    padding-left: 150px;
-}
-ul{
-    margin-bottom: 25px;
-}
-li{
-    list-style: none;
-    margin-left: -40px;
-    color: gray;
-}
-li img{
-    width: 18px !important;
-}
-.anxiety{
-    margin-top: -80px;
-}
-.download img{
-    margin-bottom: 25px;
-}
-p{
-    color: gray;
-}
-.padding-right{
-    padding-right: 20px;
-}
-.padding-left{
-    padding-left: 20px;
-}
-.background-2 {
-    background-color: #80808024;
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-.background-3{
-    padding-bottom: 100px;
-}
-img{
-    width: 100%;
-}
-.concert-div{
-    display: flex;
-}
-.main-artist{
-    margin-bottom: -4px;
-}
-.concert-div-2{
-    margin-top: 50px;
-    margin-bottom: 15px;
-}
-.concert-div button{
-    background-color: transparent;
-    border: solid 2px white;
-    color: white;
-}
-.concert-div button:hover{
-    background-color: #2b96ea;
-    border: solid 2px #2b96ea;
-    color: #fff;
-}
-.concert-div img{
-    width: 100%;
-}
-.concert-div article {
-    width: 100%;
-}
-.concert-box{
-    display: flex;
-    filter: grayscale(70%);
-    transition: .2s ease-in-out;
-    text-align: end;
-    background-color: black;
-}
-.concert-box:hover{
-    filter: grayscale(0%);
-}
-.concert-box-2{
-    display: flex;
-    filter: grayscale(70%);
-    transition: .2s ease-in-out;
-    text-align: end;
-    flex-flow: column;
-    background-color: black;
-}
-.concert-box-2:hover{
-    filter: grayscale(0%);
-}
-.concert-box span{
-    color: #b3bf41;
-}
-.concert-box p{
-    color: white;
-}
-.concert-box .right{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 35px;
-}
-.music-div{
-    display: flex;
-    margin-bottom: 150px;
-}
-.music-div div{
-    width: 100%;
-    display: flex;
-    flex-flow: initial;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.music-div img{
-    width: 50%;
-}
-.music-div a{
-    font-size: 1.5em;
-}
-.music-div a:hover{
-    color: #2b96ea;
-}
-.spotify{
-    color: #47D65F;
-}
-.odio{
-    color: #d55faf;
-}
-.div-padding{
-    padding: 35px;
-    display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-}
-.div-padding p{
-    color: white;
-}
-.column-3{
-    display: flex;
-    margin-bottom: 50px;
-}
-.flex{
-    display: flex;
-}
-.box{
-    width: 100%;
-}
-span{
-    color: #b3bf41;
-    font-size: 2em;
-}
-button{
-    cursor: pointer;
-    width: 50%;
-    color: #fff;
-    background-color: #2b96ea;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: #2b96ea 2px solid;
-    transition: .2s ease-in-out;
-    font-size: 1em;
-    border-radius: 4px !important;
-}
-button:hover{
-    color: white;
-    background: transparent;
-    border: white 2px solid;
-}
-.btn-2:hover{
-    color: #2b96ea;
-    border: #2b96ea 2px solid;
-    background-color: transparent;
-}
-.button-transparent{
-    cursor: pointer;
-    width: 50%;
-    color: #2b96ea;
-    background-color: transparent;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: #2b96ea 2px solid;
-    transition: .2s ease-in-out;
-    font-size: 1em;
-    border-radius: 4px !important;
-}
-.button-transparent:hover{
-    color: #fff;
-    background-color: #2b96ea;
-    border: #2b96ea 2px solid;
-}
-.bg-btn{
-    margin-top: -88px;
-    position: relative;
-    background-color: #000000a6;
-    padding: 10px;
-    height: 65px;
-}
-.museums .box{
-    display: flex;
-}
-.museums p{
-    color: white;
-}
-.museums .bg-btn{
-    height: 120px;
-    margin-top: -143px;
-    color: white;
-}
-.museums .bg-btn button {
-    color: #fff;
-    background-color: transparent;
-    border: #fff 2px solid;
-}
-.museums .bg-btn button:hover {
-    color: #fff;
-    background-color: #2b96ea;
-    border: #2b96ea 2px solid;
-}
-.games{
-    margin-top: -75px;
-    position: relative;
-    background-color: #000;
-    height: 100px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-} 
-.games button{
-    position: relative;
-    float: right;
-}
-.games-general{
-    margin-top: 50px;
-}
-
-.list{
-    margin-top: 35px;
-}
-.list div img{
-    width: 25% !important;
-    filter: grayscale(50%);
-    transition: .2s ease-in-out;
-}
-.list div img:hover{
-    filter: grayscale(0%);
-}
-.content-2{
-    margin-top: 75px;
-}
-.right{
-    float: right ;
-}
-.txt-right{
-    text-align: right;
-}
-.txt-left{
-    text-align: left;
-}
-.width{
-    width: 50%;
-}
-.width-100 {
-    width: 100%;
-}
-
-h1{
-    color: white;
-    font-size: 2em;
-}
-h3{
-    font-size: 2em;
-    margin: 70px 0px;
-    color: #2b96ea;
-}
-.principal{
-    width: 50%;
-    color: white;
-    display: flex;
-    flex-flow: column;
-    height: 100vh;
-    justify-content: center;
-    margin-left: -150px;
-    padding-left: 150px;
-    padding-right: 50px;
-    background-color: #b3bf41bd;
-}
-.principal img{
-    width: 120px;
-    margin-left: 10px;
-    margin-top: -11px;
-    position: absolute;
-}
-header{
-    background: url("https://drive.google.com/file/d/1JYHiZOVb1Fyx4c35Zrsv8ztQVlr1xSrC/view") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-header h3{
-    margin: 0px;
-    color: white;
-}
-header p{
-    color: white;
-}
-header span{
-    color: white;
-    font-size: 1em;
-}
-
-.one article{
-    display: flex;
-    align-items: center;
-}
-.one article span{
-    color: #b3bf41;
-    font-size: 2em;
-}
-.one article .width img{
-    width: 100%;
-}
-
-.streaming-video{
-    background-color: black;
-}
-/*.streaming-video img{
-    width: 27%;
-    margin-top: -186px;
-    display: flex;
-    flex-flow: row-reverse;
-}*/
-.title-streaming{
-    display: flex;
-    flex-flow: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-}
-.title-streaming img{
-    margin-top: -47px;
-}
-.streaming-video article{
-    display: flex;
-    isplay: flex;
-    justify-content: flex-end;
-    margin-top: -55px;
-    padding-bottom: 50px;
-    margin-top: -65px;
-    background-color: black;
-    position: relative;
-}
-.streaming-video article img{
-    width: auto;
-    height: 60px;
-}
-.streaming-video h3{
-    margin-top: -7%;
-    text-align: right;
-}
-.streaming-video a{
-    margin: 0px 15px;
-}
-
-footer{
-    background-color: #b3bf41bd;
-    text-align: center;
-}
-footer img{
-    width: 100px;
-    padding: 10px;
-}
-
-
-
-
-
-
-@media(max-width: 1366px ){
-    .column-3 .bg-btn button{
-        width: 75%;
-    }
-}
-@media(max-width:1335px){
-    .museums .box {
-        flex-flow: wrap;
-    }
-    .streaming-video article{
-        margin-top: -60px;
-        justify-content: space-around;
-        padding-top: 40px;
-    }
-}
-@media(max-width: 1086px ){
-    .music-div div{
-        flex-flow: column;
-    }
-}
-@media(max-width: 1074px ){
-    .principal {
-        width: 75%;
-    }
-}
-@media(max-width: 1030px ){
-    .column-3{
-        flex-flow: column;
-    }
-}
-
-@media(max-width: 991px){
-    body{
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-    .container{
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .principal {
-        width: 100%;
-    }
-    .exercises button{
-        width: 100%;
-    }
-    button{
-        padding: 10px;
-    }
-    .column-3 .bg-btn{
-        display: flex;
-        flex-flow: column;
-        align-items: flex-end;
-        justify-content: center;
-    }
-    .museums .bg-btn button{
-        padding: 10px;
-    }
-    .museums .bg-btn {
-        display: flex;
-        flex-flow: column;
-        align-items: flex-end;
-        justify-content: center;
-    }
-    .title-streaming{
-        flex-flow: column-reverse;
-    }
-    .title-streaming h3{
-        text-align: center;
-        background-color: black;
-        position: relative;
-        margin-top: -60px;
-    }
-    .list-streaming{
-        flex-flow: column;
-        text-align: center;
-    }
-}
-
-@media(max-width:609px){
-    header button{
-        width: 100%;
-    }
-    .exercises{
-        margin-bottom: -50px;
-    }
-    .exercises article{
-        flex-flow: wrap-reverse;
-        margin-bottom: 50px;
-    }
-    .flow-column-reverse{
-        flex-flow: column !important;
-    }
-    .exercises .content-2{
-        display: flex;
-        flex-flow: column;
-        text-align: center;
-    }
-    .list div img {
-        width: 50% !important;
-        margin-bottom: 25px;
-    }
-    .width {
-        width: 100%;
-    }
-    .padding-right {
-        padding-right: 0px;
-    }
-    .padding-left {
-        padding-left: 0px;
-    }
-    .anxiety-general{
-        flex-flow: column;
-        margin-top: 100px;
-    }
-    .download-general article {
-        flex-flow: column;
-    }
-    .concert-div {
-        flex-flow: column;
-    }
-    .concert-div article{
-        flex-flow: column;
-    }
-    .concert-div article button{
-        width: 100%;
-    }
-    .concert-div-2 {
-        margin-bottom: 0px;
-    }
-    .music-div{
-        flex-flow: column;
-    }
-    .music-div div{
-        margin-bottom: 50px;
-    }
-    .list-streaming img{
-        width: 75%;
-        height: auto;
-    }
-
-}
-    </style>
-    <title> Vass Go On</title>
+    <link rel="stylesheet" href="
+    https://storage.cloud.google.com/vass-go-on/magazine/css/styles.css?hl=es-419
+    ">
+    <title>Take care - Vass</title>
 </head>
-
 <body>
 
-    <header>
-        <div class="bg-img container">
-            <div class="principal">
-                <h1>Manual <span>Take Care <img src="img/logo.png" alt=""></span></h1>
-                <h3>Actividades para que disfrutes esta Cuarentena junto a tu familia... Y si vives sólo no te aburras. </h3>
-                <p>
-                    Ok, sabemos que estás en casa, tratando de trabajar al tiempo que haces tu vida familiar, por eso Vass quiere invitarte a tomar el control en este tiempo, desarrollar nuevas capacidades, potenciar tus habilidades y que continues con eso que te apasiona pero que por flata de tiempo no haz podido terminar. Aquí encontrarás una serie de actividades y recomendaciones para que disfrutes tu día a día.
-                </p>
-
-                <button>Clickeame!</button>
-            </div>
-        </div>
-    </header>
-
-    <section class="container one background-3 exercises">
-        <h3> <span>1</span> Comienza a hacer ejercicio, yoga y meditación </h3>
-        <article>
-            <div class="text txt-left width padding-right">
-                <span>Rutinas de ejercicios para cada día</span>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
-                </p>
-                <button class="left btn-2">Ir a la rutina</button>
-            </div>
-            <div class="img-section width">
-                <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/4480.jpg" alt="">
-            </div>
-        </article>
-
-        <article class="flow-column-reverse">
-            <div class="left img-section width">
-                <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/187.jpg" alt="">
-            </div>
-            <div class="text txt-right width padding-left">
-                <span>Yoga en casa</span>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
-                </p>
-                <button class="right btn-2">Relájate</button>
-            </div>
-        </article>
-
-        <article>
-            <div class="text txt-left width padding-right">
-                <span>Yoga en casa para niños</span>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
-                </p>
-                <button class="left btn-2">Ayuda a tus hijos</button>
-
-                <div class="content-2">
-                    <span>Seguro amaran esto!</span>
-                    <div class="list">
-                        <div>
-                            <a href=""><img src="img/logo_kids_2.png" alt=""></a>
-                        </div>
-                        <div>
-                            <a href=""><img src="img/friv-2.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="right img-section width">
-                <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/3666090.jpg" alt="">
-            </div>
-        </article>
-    </section>
-
-    <section class="container one background-2">
-        <h3> <span>2</span> Maneja la ansiedad en 5 pasos </h3>
-        <article class="anxiety-general">
-            <div class="width padding-right anxiety padding-right">
-                <span>Es momento de superar el pánico</span>
-                <p>
-                    No se trata tanto de cómo curar la ansiedad, ya que no es en sí una enfermedad. Pero sí puedes transformarla y empezar a sanar. ¿Cómo? Siguiendo un proceso.
-                </p>
-            </div>
-            <div class="right img-bg width">
-                <ul>
-                    <li> <img src="img/check.png"> Paso 1: Haz un alto y acepta</li>
-                    <li> <img src="img/check.png"> Paso 2: Recupera el equilibrio</li>
-                    <li> <img src="img/check.png"> Paso 3: Ubícate en la realidad</li>
-                    <li> <img src="img/check.png"> Paso 4: Confía en ti y enfrenta tus miedos</li>
-                    <li> <img src="img/check.png"> Paso 5: Hazte responsable de ti y sé libre</li>
-                </ul>
-                <button class="right width-100 btn-2">Mira como hacerlo!</button>
-            </div>
-        </article>
-    </section>
-
-    <section class="container">
-        <h3> <span>3</span> Bibliotecas virtuales </h3>
-        <article>
-            <div class="column-3">
-                <div class="box">
-                    <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/10015.jpg" alt="">
-                    <div class="bg-btn">
-                        <button class="right">UNESCO</button>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/342387-PA9PVN-610.jpg" alt="">
-                    <div class="bg-btn">
-                        <button class="right">DIGITAL HISPANA</button>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/2413378.jpg" alt="">
-                    <div class="bg-btn">
-                        <button class="right">GETABSTRACT</button>
-                    </div>
-                </div>
-            </div>
-        </article>
-    </section>
-
-    <section class="container one background-3 download-general">
-        <article>
-            <div class="width padding-right">
-                <span>100 mejores cuentos cortos de la literatura universal</span>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
-                </p>
-            </div>
-            <div class="right img-bg width download">
-                <img src="img/libros-gratis.jpg" alt="">
-                <button class="right width-100 btn-2">Descarga eBooks gratuitos</button>
-            </div>
-        </article>
-    </section>
-
-    <section class="container background-2">
-        <h3> <span>4</span> Museos virtuales </h3>
-        <article>
-            <div class="museums">
-                <div class="box">
-                    <div class="width-museums">
-                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/louvre.jpg" alt="">
-                        <div class="bg-btn">
-                            <p>Museo del Louvre (París)</p>
-                            <button class="button-transparent">Conoce</button>
-                        </div>
-                    </div>
-                    <div class="width-museums">
-                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/mma.jpg" alt="">
-                        <div class="bg-btn">
-                            <p>Museo Metropolitano de Arte (New York)</p>
-                            <button class="button-transparent">Conoce</button>
-                        </div>
-                    </div>
-                    <div class="width-museums">
-                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/mbl.jpg" alt="">
-                        <div class="bg-btn">
-                            <p>Museo Británico (Londres)</p>
-                            <button class="button-transparent">Conoce</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="width-museums">
-                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/mana.jpg" alt="">
-                        <div class="bg-btn">
-                            <p>Museo Arqueologíco (Atenas)</p>
-                            <button class="button-transparent">Conoce</button>
-                        </div>
-                    </div>
-                    <div class="width-museums">
-                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/mp.jpg" alt="">
-                        <div class="bg-btn">
-                            <p>Museo del Prado (Madrid)</p>
-                            <button class="button-transparent">Conoce</button>
-                        </div>
-                    </div>
-                    <div class="width-museums">
-                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/mamm.jpg" alt="">
-                        <div class="bg-btn">
-                            <p>Museo de Arte Metropolitano (Medellín)</p>
-                            <button class="button-transparent">Conoce</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-    </section>
-
-    <section class="container">
-        <h3> <span>5</span> GameON </h3>
-        <span>Toma el control y sube de nivel!</span>
-        <article class="games-general">
-            <div>
-                <div class="img-bg">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ot63S91Ihwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="games">
-                        <button>Descargalo aquí</button>
-                    </div>
-                </div>
-                <div class="img-bg">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/nXODelg4XkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="games">
-                        <button>Descargalo aquí</button>
-                    </div>
-                </div>
-                <div class="img-bg">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/JP1RI_WNP-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="games">
-                        <button>Descargalo aquí</button>
-                    </div>
-                </div>
-            </div>
-        </article>
-    </section>
-
-    <section class="container">
-        <h3> <span>6</span> Tonight Concert </h3>
-        <span>Es momento de disfrutar de la música desde la comodidad de tu casa!</span>
-
-        <div class="concert-div">
-            <article class="concert-box concert-div-2">
-                <div class="main-artist">
-                    <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/michael-jackson-concert-3.jpg" alt="">
-                </div>
-                <div class="right">
-                    <span>Michael Jackson</span>
+        <header>
+            <div class="bg-img container">
+                <div class="principal">
+                    <h1>Manual <span>Take Care <img src="
+                        https://storage.cloud.google.com/vass-go-on/magazine/img/logo-min.png?hl=es-419
+                        " alt=""></span></h1>
+                    <h3>Actividades para que disfrutes esta Cuarentena junto a tu familia... Y si vives sólo no te aburras. </h3>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
+                        Ok, sabemos que estás en casa, tratando de trabajar al tiempo que haces tu vida familiar, 
+                        por eso Vass quiere invitarte a tomar el control en este tiempo, desarrollar nuevas capacidades, 
+                        potenciar tus habilidades y que continues con eso que te apasiona pero que por flata de tiempo no haz podido terminar.
+                        
+                        Aquí encontrarás una serie de actividades y recomendaciones para que disfrutes tu día a día.
                     </p>
-                    <button>Dale PLAY</button>
-                </div>
-            </article>
-        </div>
 
-        <div class="concert-div">
-            <article>
-                <div class="concert-box-2">
-                    <div>
-                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/coldplay-concert.jpg" alt="">
-                    </div>
-                    <div class="div-padding">
-                        <span>Coldplay</span>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
-                        </p>
-                        <button>Dale PLAY</button>
-                    </div>
-                </div>
-            </article>
-
-            <article>
-                <div class="concert-box-2">
-                    <div>
-                        <img src="file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/maroon5-concert.jpg" alt="">
-                    </div>
-                    <div class="div-padding">
-                        <span>Maroon 5</span>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus illo illum, ipsum veritatis, consequuntur temporibus.
-                        </p>
-                        <button>Dale PLAY</button>
-                    </div>
-                </div>
-            </article>
-        </div>
-
-        <div>
-            <h3>Apps de música y emisoras virtuales</h3>
-            <div class="music-div">
-                <div class="">
-                    <img src="img/spotify.jpg" alt="">
-                    <a href="" class="spotify">Descarga la App</a>
-                </div>
-                <div class="">
-                    <img src="img/odio.jpg" alt="">
-                    <a href="" class="odio">Descarga la App</a>
+                    <button>Clickeame!</button>
                 </div>
             </div>
-        </div>
+        </header>
 
-    </section>
+        <section class="container one background-3 exercises">
+            <h3> <span>1</span> Comienza a hacer ejercicio, yoga y meditación </h3>
+            <article>
+                <div class="text txt-left width padding-right">
+                    <span>Rutinas de ejercicios para cada día</span>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur 
+                        rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus 
+                        illo illum, ipsum veritatis, consequuntur temporibus.
+                    </p>
+                    <button class="left btn-2">Ir a la rutina</button>
+                </div>
+                <div class="img-section width">
+                    <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/2-min.jpg?hl=es-419" alt="">
+                </div>
+            </article>
 
-    <section class="container streaming-video">
-        <div class="title-streaming">
+            <article class="flow-column-reverse">
+                <div class="left img-section width">
+                    <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/3-min.jpg?hl=es-419" alt="">
+                </div>
+                <div class="text txt-right width padding-left">
+                    <span>Yoga en casa</span>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur 
+                        rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus 
+                        illo illum, ipsum veritatis, consequuntur temporibus.
+                    </p>
+                    <button class="right btn-2">Relájate</button>
+                </div>
+            </article>
+
+            <article>
+                <div class="text txt-left width padding-right">
+                    <span>Yoga en casa para niños</span>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur 
+                        rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus 
+                        illo illum, ipsum veritatis, consequuntur temporibus.
+                    </p>
+                    <button class="left btn-2">Ayuda a tus hijos</button>
+                
+                    <div class="content-2">
+                        <span>Seguro amaran esto!</span>
+                        <div class="list">
+                            <div><a href=""><img src="https://storage.cloud.google.com/vass-go-on/magazine/img/5-min.png?hl=es-419" alt=""></a></div>
+                            <div><a href=""><img src="https://storage.cloud.google.com/vass-go-on/magazine/img/6-min.png?hl=es-419" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right img-section width">
+                    <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/4-min.jpg?hl=es-419" alt="">
+                </div>
+            </article>
+        </section>
+
+        <section class="container one background-2">
+            <h3> <span>2</span> Maneja la ansiedad en 5 pasos </h3>
+            <article class="anxiety-general">
+                <div class="width padding-right anxiety padding-right">
+                    <span>Es momento de superar el pánico</span>
+                    <p>
+                        No se trata tanto de cómo curar la ansiedad, ya que no es 
+                        en sí una enfermedad. Pero sí puedes transformarla y empezar 
+                        a sanar. ¿Cómo? Siguiendo un proceso.
+                    </p>
+                </div>
+                <div class="right img-bg width">
+                    <ul>
+                        <li> <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/7-min.png?hl=es-419"> Paso 1: Haz un alto y acepta</li>
+                        <li> <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/7-min.png?hl=es-419"> Paso 2: Recupera el equilibrio</li>
+                        <li> <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/7-min.png?hl=es-419"> Paso 3: Ubícate en la realidad</li>
+                        <li> <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/7-min.png?hl=es-419"> Paso 4: Confía en ti y enfrenta tus miedos</li>
+                        <li> <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/7-min.png?hl=es-419"> Paso 5: Hazte responsable de ti y sé libre</li>
+                    </ul>
+                    <button class="right width-100 btn-2">Mira como hacerlo!</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="container">
+            <h3> <span>3</span> Bibliotecas virtuales </h3>
+            <article>
+                <div class="column-3">
+                    <div class="box">
+                        <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/8-min.jpg?hl=es-419" alt="">
+                        <div class="bg-btn"><button class="right">UNESCO</button></div>
+                    </div>
+                    <div class="box">
+                        <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/9-min.jpg?hl=es-419" alt="">
+                        <div class="bg-btn"><button class="right">DIGITAL HISPANA</button></div>
+                    </div>
+                    <div class="box">
+                        <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/10-min.jpg?hl=es-419" alt="">
+                        <div class="bg-btn"><button class="right">GETABSTRACT</button></div>
+                    </div>
+                </div>
+            </article>
+        </section> 
+
+        <section class="container one background-3 download-general">
+            <article>
+                <div class="width padding-right">
+                    <span>100 mejores cuentos cortos de la literatura universal</span>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur 
+                        rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus 
+                        illo illum, ipsum veritatis, consequuntur temporibus.
+                    </p>
+                </div>
+                <div class="right img-bg width download">
+                    <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/11-min.jpg?hl=es-419" alt="">
+                    <button class="right width-100 btn-2">Descarga eBooks gratuitos</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="container background-2">
+            <h3> <span>4</span> Museos virtuales </h3>
+            <article>
+                <div class="museums">
+                    <div class="box">
+                        <div class="width-museums">
+                            <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/12-min.jpg?hl=es-419" alt="">
+                            <div class="bg-btn">
+                                <p>Museo del Louvre (París)</p>
+                                <button class="button-transparent">Conoce</button>
+                            </div>
+                        </div>
+                        <div class="width-museums">
+                            <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/13-min.jpg?hl=es-419" alt="">
+                            <div class="bg-btn">
+                                <p>Museo Metropolitano de Arte (New York)</p>
+                                <button class="button-transparent">Conoce</button>
+                            </div>
+                        </div>
+                        <div class="width-museums">
+                            <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/14-min.jpg?hl=es-419" alt="">
+                            <div class="bg-btn">
+                                <p>Museo Británico (Londres)</p>
+                                <button class="button-transparent">Conoce</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="width-museums">
+                            <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/15-min.jpg?hl=es-419" alt="">
+                            <div class="bg-btn">
+                                <p>Museo Arqueologíco (Atenas)</p>
+                                <button class="button-transparent">Conoce</button>
+                            </div>
+                        </div>
+                        <div class="width-museums">
+                            <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/16-min.jpg?hl=es-419" alt="">
+                            <div class="bg-btn">
+                                <p>Museo del Prado (Madrid)</p>
+                                <button class="button-transparent">Conoce</button>
+                            </div>
+                        </div>
+                        <div class="width-museums">
+                            <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/17-min.jpg?hl=es-419" alt="">
+                            <div class="bg-btn">
+                                <p>Museo de Arte Metropolitano (Medellín)</p>
+                                <button class="button-transparent">Conoce</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section> 
+
+        <section class="container">
+            <h3> <span>5</span> GameON </h3>
+            <span>Toma el control y sube de nivel!</span>
+            <article class="games-general">
+                <div>
+                    <div class="img-bg">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ot63S91Ihwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="games">
+                            <button>Descargalo aquí</button>
+                        </div>
+                    </div>
+                    <div class="img-bg">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/nXODelg4XkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="games">
+                            <button>Descargalo aquí</button>
+                        </div>
+                    </div>
+                    <div class="img-bg">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/JP1RI_WNP-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="games">
+                            <button>Descargalo aquí</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section> 
+
+        <section class="container">
+            <h3> <span>6</span> Tonight Concert </h3>
+            <span>Es momento de disfrutar de la música desde la comodidad de tu casa!</span>
+    
+            <div class="concert-div">
+                <article class="concert-box concert-div-2">
+                    <div class="main-artist">
+                        <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/18-min.jpg?hl=es-419" alt="">
+                    </div>
+                    <div class="right">
+                        <span>Michael Jackson</span>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur 
+                            rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus 
+                            illo illum, ipsum veritatis, consequuntur temporibus.
+                        </p>
+                        <button>Dale PLAY</button>
+                    </div>
+                </article>
+            </div>
+
+            <div class="concert-div">
+                <article>
+                        <div class="concert-box-2">
+                            <div>
+                                <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/19-min.jpg?hl=es-419" alt="">
+                           </div>
+                           <div class="div-padding">
+                            <span>Coldplay</span>
+                               <p>
+                                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur 
+                                   rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus 
+                                   illo illum, ipsum veritatis, consequuntur temporibus.
+                               </p>
+                               <button>Dale PLAY</button>
+                           </div>
+                        </div>
+                </article>
+    
+                <article>
+                    <div class="concert-box-2">
+                        <div>
+                            <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/20-min.jpg?hl=es-419" alt="">
+                       </div>
+                       <div class="div-padding">
+                           <span>Maroon 5</span>
+                           <p>
+                               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, pariatur 
+                               rem est optio at aperiam sapiente adipisci animi repellat quam ex dolores id minus 
+                               illo illum, ipsum veritatis, consequuntur temporibus.
+                           </p>
+                           <button>Dale PLAY</button>
+                       </div>
+                    </div>
+                </article>
+            </div>
+
+        
             <div>
-                <h3> <span>7</span> Películas, series y documentales </h3></div>
-            <div><img src="https://drive.google.com/file/d/1BgYxfVoEGu8J-qZzybQ3rDermnj2lBlr/view" alt=""></div>
-        </div>
-        <article class="list-streaming">
-            <a href=""><img src="img/netflix.png" alt=""></a>
-            <a href=""><img src="img/hbo.jpg" alt=""></a>
-            <a href=""><img src="img/amazon-prime.png" alt=""></a>
-        </article>
-    </section>
+                <h3>Apps de música y emisoras virtuales</h3>
+                <div class="music-div">
+                    <div class="">
+                        <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/21-min.jpg?hl=es-419" alt="">
+                        <a href="" class="spotify">Descarga la App</a>
+                    </div>
+                    <div class="">
+                        <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/22-min.jpg?hl=es-419" alt="">
+                        <a href="" class="odio">Descarga la App</a>
+                    </div>
+                </div>
+            </div>
 
-    <footer>
-        <img src="img/logo.png" alt="">
-    </footer>
+        </section>
+
+        <section class="container streaming-video">
+            <div class="title-streaming">
+                <div><h3> <span>7</span> Películas, series y documentales </h3></div>
+                 <div><img src="https://storage.cloud.google.com/vass-go-on/magazine/img/23-min.png?hl=es-419" alt=""></div> 
+            </div>
+            <article class="list-streaming">
+                <a href=""><img src="https://storage.cloud.google.com/vass-go-on/magazine/img/24-min.png?hl=es-419" alt=""></a>
+                <a href=""><img src="https://storage.cloud.google.com/vass-go-on/magazine/img/25-min.jpg?hl=es-419" alt=""></a>
+                <a href=""><img src="https://storage.cloud.google.com/vass-go-on/magazine/img/26-min.png?hl=es-419" alt=""></a>
+            </article>
+        </section> 
+
+        <footer>
+            <img src="https://storage.cloud.google.com/vass-go-on/magazine/img/logo-min.png?hl=es-419" alt="">
+        </footer>
 
 </body>
-
 </html>
