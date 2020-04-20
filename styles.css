@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 header button{
     color: #fff;
     background-color: transparent;
@@ -56,6 +59,11 @@ img{
 }
 .concert-div{
     display: flex;
+}
+.concert-div a{
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
 }
 .main-artist{
     margin-bottom: -4px;
@@ -213,6 +221,14 @@ button:hover{
     padding: 10px;
     height: 65px;
 }
+.bg-btn a button {
+    width: 75%;
+}
+.bg-btn a button:hover {
+    color: #fff;
+    background-color: transparent;
+    border: #fff 2px solid;
+}
 .museums .box{
     display: flex;
 }
@@ -310,7 +326,7 @@ h3{
     position: absolute;
 }
 header{
-    background: url(file:///Users/arleyCuadrado/Desktop/LIFERAY-VASS/magazine/img/header.jpg) no-repeat center center fixed; 
+    background: url(https://storage.cloud.google.com/vass-go-on/magazine/img/1-min.jpg?hl=es-419) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -389,14 +405,28 @@ footer img{
     padding: 10px;
 }
 
+/*AJUSTES----*/
+.museums .bg-btn {
+    flex-flow: column;
+    display: flex;
+    align-items: flex-end;
+}
 
-
-
-
+.museums .bg-btn a {
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
+}
 
 @media(max-width: 1366px ){
-    .column-3 .bg-btn button{
-        width: 75%;
+    .column-3 .bg-btn a {
+        width: 100%;
+    }
+    .bg-btn a button {
+        float: right;
+    }
+    .museums .bg-btn p{
+        float: right;
     }
 }
 @media(max-width:1335px){
@@ -470,6 +500,9 @@ footer img{
     .list-streaming{
         flex-flow: column;
         text-align: center;
+    }
+    .concert-div a button{
+        width: 100%;
     }
 }
 
